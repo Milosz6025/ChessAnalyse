@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Analiza meczu szachowego</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="stockfish.js-master/stockfish.js"></script>
+
+</head>
+<body>
+    <h1>Analiza meczu szachowego</h1>
+    
+    <div class="container">
+        <label for="pgn-input">Wprowadź link PGN:</label>
+        <input type="text" id="pgn-input" placeholder="Wklej link PGN">
+        <button id="analyze-button">Analizuj</button>
+    </div>
+    
+    <div id="result-container" class="container">
+        <h2>Wyniki analizy:</h2>
+        <div id="analysis-results"></div>
+    </div>
+    
+    <script src="chess.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
